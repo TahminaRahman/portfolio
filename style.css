@@ -30,6 +30,7 @@ body {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin: 0px 0px;
 }
 .section-description {
     color: #757575;
@@ -110,7 +111,10 @@ nav a {
 
 /* header ending */
 /* main section starting */
-
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 /* main section ending */
 /* about section starting */
 
@@ -118,8 +122,15 @@ nav a {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 120px 0px;
+    margin: 100px 0px;
 }
-    
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+   
 
 /* about section ending */
