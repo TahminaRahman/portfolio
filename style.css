@@ -104,6 +104,9 @@ main{
     max-width: 1140px;
     margin: 0px auto;
 }
+main{
+    margin: 130px auto;
+}
 /* main section ending */
 /* about section starting */
 
@@ -124,7 +127,7 @@ main{
     color: #757575;
     text-align: center;
     font-size: 18px;
-    margin: 29px 0px;
+    margin: 40px 0px;
 }
 .about-info-container{
     display: flex;
@@ -142,10 +145,30 @@ main{
     margin: 7px;
     font-weight: bold;
 }
+/* about ending */
+/* skills related style */
 #what-i-do-description{
-    padding: 29px 302px;
-    margin: 0px;
+    padding: 21px 42px;
 }
-   
+.skills-container{
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    padding: 25px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    color: #757575;
+}
 
 /* about section ending */
+/* Resume Section Style  */
+
+.resume-colimn-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
